@@ -27,7 +27,7 @@ class DataConfig : Application() {
         super.onCreate()
         dataConfig = this
 
-        val appToken = ""
+        val appToken = "46jck9amdglc"
         val environment = AdjustConfig.ENVIRONMENT_SANDBOX
         val config = AdjustConfig(this, appToken, environment)
         config.setLogLevel(LogLevel.WARN)
